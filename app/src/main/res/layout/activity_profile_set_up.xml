@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileSetUpActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/fondo">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageProfile"
+        android:layout_marginTop="35dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/user_image"
+        app:civ_border_color="@color/principal"
+        app:civ_border_width="3dp"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_setup"
+        android:textColor="@color/principal"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_set_your_name_and_profile_image"
+        android:textColor="@color/ColorText"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/card_background"
+        android:elevation="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/NameOfUser"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/type_your_name"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnOfProfileSetUp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:text="@string/next"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

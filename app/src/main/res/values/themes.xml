@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.NewChatApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/principal</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/principal</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/principal</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BUTTOn">
+        <item name="android:backgroundTint">@color/principal</item>
+        <item name="android:text">@color/white</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="windowFixedWidthMajor">80%</item>
+        <item name="windowFixedWidthMinor">80%</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+</resources>

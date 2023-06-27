@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NewChatApp</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an">We will send you an</string>
+    <string name="one_time_password">One Time Password</string>
+    <string name="to_this_phone_number">to this phone number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="enter_the_code_number">Enter the code number</string>
+    <string name="enter_the_otp_code_to_verify_your_phone_number">Enter the OTP code to verify your Phone Number</string>
+    <string name="profile_setup">Profile SetUp</string>
+    <string name="please_set_your_name_and_profile_image">Please set your name and profile image</string>
+    <string name="type_your_name">Type your name</string>
+    <string name="delete_for_everyone">Delete for everyone</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_for_me">Delete for me</string>
+    <string name="image_holder">Image Holder</string>
+    <string name="logout">Logout</string>
+    <string name="user_list">User List</string>
+    <string name="this_is_the_list_of_all_the_user_in_the_app">This is the list of all the user in the app</string>
+</resources>

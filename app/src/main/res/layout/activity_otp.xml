@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OTPActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        android:src="@mipmap/verification_image_removebg_preview"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify number"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/principal"
+            android:textStyle="bold"
+            android:layout_marginEnd="6dp"/>
+        <TextView
+            android:id="@+id/phoneNumberToVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/principal"
+            android:textStyle="bold"
+            android:text="+57 3003003000"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/enter_the_otp_code_to_verify_your_phone_number"
+        android:layout_marginEnd="6dp"
+        android:textColor="@color/ColorText"/>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:elevation="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="15dp">
+
+        <com.mukeshsolanki.OtpView
+            android:id="@+id/OtpToEntercode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:OtpItemCount="6"
+            android:focusableInTouchMode="true"
+            android:itemBackground="@drawable/card_background"
+            app:OtpViewType="rectangle"
+            app:OtpItemRadius="10dp"
+            app:OtpLineColor="@color/principal"
+            android:hint="@string/enter_the_code_number"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btnNextOfOTP"
+            style="@style/BUTTOn"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/next"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
