@@ -13,7 +13,7 @@ The Kotlin-Firebase Chat App is a personal project developed as a practice proje
 ***Please note that the OTP-based phone number verification feature relies on Firebase Authentication and the numbers specified in the Firebase console, the app will only work if you use those specific numbers and codes.***
 
 ### List of numbers and codes:
-* These numbers were used for testing the app. They already have a username and a profile picture. If you want to create a new profile, please use the other numbers.
+ *These numbers were used for testing the app. They already have a username and a profile picture. If you want to create a new profile, please use the other numbers.
 - +573504677416 → 222222 *
 - +573136529098 → 123456 *
 - +573500816022 → 876543
