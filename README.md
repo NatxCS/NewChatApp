@@ -11,3 +11,10 @@ The Kotlin-Firebase Chat App is a personal project developed as a practice proje
 6. Cloud Storage: Firebase Cloud Storage is used for storing and managing user-generated content such as images shared within the app's chat conversations. This ensures reliable storage and fast access to multimedia content.
 
 ***Please note that the OTP-based phone number verification feature relies on Firebase Authentication and the numbers specified in the Firebase console, the app will only work if you use those specific numbers and codes.***
+
+### List of numbers and codes:
+
+- +573504677416 → 222222
+- +573136529098 → 123456
+- +573500816022 → 876543
+- +573136045458 → 464748
